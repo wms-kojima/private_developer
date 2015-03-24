@@ -1,0 +1,19 @@
+{
+    "username": "kojima@wmshome.net", 
+    "environment": "developer", 
+    "project_name": "private_developer", 
+    "workspace": "C:\\Users\\kojima\\workspace", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "YS1696QZQWZUWSB1CQRYW10I8H33L4ZC", 
+    "metadata_container": "1dc100000005BkeAAE", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "CustomObject", 
+        "Profile", 
+        "StaticResource"
+    ]
+}

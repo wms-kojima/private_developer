@@ -1,0 +1,8 @@
+<apex:page controller="Greeting_Controller">
+      <p>
+          <apex:outputText value="{!greeting}"/>
+      </p>
+      <apex:form >
+     <apex:commandButton value="退出" action="{!exit}" />
+     </apex:form>
+</apex:page>

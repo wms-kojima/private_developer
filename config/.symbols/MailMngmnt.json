@@ -1,0 +1,281 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "MailMngmnt", 
+    "tableDeclaration": {
+        "type": "MailMngmnt", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "MailMngmnt"
+    }, 
+    "key": "01p10000000zvwWAAQ", 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 33, 
+                "line": 3
+            }, 
+            "name": "disname"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 48, 
+                "line": 3
+            }, 
+            "name": "tempName"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 60, 
+                "line": 3
+            }, 
+            "name": "targetid"
+        }, 
+        {
+            "type": "OrgWideEmailAddress", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 4
+            }, 
+            "name": "owa"
+        }, 
+        {
+            "type": "EmailTemplate", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 5
+            }, 
+            "name": "temp"
+        }, 
+        {
+            "type": "SingleEmailMessage", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 38, 
+                "line": 6
+            }, 
+            "name": "createmail"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 63, 
+                "line": 12
+            }, 
+            "name": "disname"
+        }, 
+        {
+            "type": "OrgWideEmailAddress", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 13
+            }, 
+            "name": "owa"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 56, 
+                "line": 28
+            }, 
+            "name": "tempName"
+        }, 
+        {
+            "type": "EmailTemplate", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 29
+            }, 
+            "name": "temp"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 64, 
+                "line": 44
+            }, 
+            "name": "aObjectId"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 63, 
+                "line": 45
+            }, 
+            "name": "aOrgWideEmailAddressId"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 63, 
+                "line": 46
+            }, 
+            "name": "asetTemplateId"
+        }, 
+        {
+            "type": "SingleEmailMessage", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 38, 
+                "line": 48
+            }, 
+            "name": "mail"
+        }, 
+        {
+            "type": "SingleEmailMessage", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 64, 
+                "line": 58
+            }, 
+            "name": "mail"
+        }
+    ], 
+    "id": "01p10000000zvwWAAQ", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "sendMail", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "disname"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "tempName"
+                }, 
+                {
+                    "type": "Id", 
+                    "name": "targetid"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 3
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "getOrgWideEmailAddress", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "disname"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 33, 
+                "line": 12
+            }, 
+            "returnType": "OrgWideEmailAddress", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "getEmailFromTemplate", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "tempName"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 28
+            }, 
+            "returnType": "EmailTemplate", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "createEmailMassage", 
+            "parameters": [
+                {
+                    "type": "Id", 
+                    "name": "aObjectId"
+                }, 
+                {
+                    "type": "Id", 
+                    "name": "aOrgWideEmailAddressId"
+                }, 
+                {
+                    "type": "Id", 
+                    "name": "asetTemplateId"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 42, 
+                "line": 44
+            }, 
+            "returnType": "SingleEmailMessage", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "sendEmailMassage", 
+            "parameters": [
+                {
+                    "type": "SingleEmailMessage", 
+                    "name": "mail"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 18, 
+                "line": 58
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

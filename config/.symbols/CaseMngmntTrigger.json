@@ -1,0 +1,155 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "CaseMngmntTrigger", 
+    "tableDeclaration": {
+        "type": "CaseMngmntTrigger", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "CaseMngmntTrigger"
+    }, 
+    "key": "01p100000010CSIAA2", 
+    "variables": [
+        {
+            "type": "Case", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 9
+            }, 
+            "name": "aCase"
+        }, 
+        {
+            "type": "CaseMngmntDate", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 10
+            }, 
+            "name": "csMngmntDate"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 11
+            }, 
+            "name": "acct"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 14
+            }, 
+            "name": "cont"
+        }, 
+        {
+            "type": "Case", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 34, 
+                "line": 23
+            }, 
+            "name": "aCase_old"
+        }, 
+        {
+            "type": "Case", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 50, 
+                "line": 23
+            }, 
+            "name": "aCase_new"
+        }, 
+        {
+            "type": "CaseMngmntDate", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 25
+            }, 
+            "name": "csMngmntDate"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 26
+            }, 
+            "name": "cont"
+        }, 
+        {
+            "type": "MailMngmnt", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 28
+            }, 
+            "name": "mailMngmnt"
+        }
+    ], 
+    "id": "01p100000010CSIAA2", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "beforeInsert", 
+            "parameters": [
+                {
+                    "type": "Case", 
+                    "name": "aCase"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 9
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "afterUpdate", 
+            "parameters": [
+                {
+                    "type": "Case", 
+                    "name": "aCase_old"
+                }, 
+                {
+                    "type": "Case", 
+                    "name": "aCase_new"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 23
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "properties": [
+        {
+            "modifiers": [], 
+            "name": "cas", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 2
+            }, 
+            "type": "Case"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "CaseMngmnt2", 
+    "tableDeclaration": {
+        "type": "CaseMngmnt2", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "CaseMngmnt2"
+    }, 
+    "key": "01p100000010CSIAA2", 
+    "variables": [
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 37, 
+                "line": 3
+            }, 
+            "name": "acase"
+        }, 
+        {
+            "type": "Case", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 18, 
+                "line": 4
+            }, 
+            "name": "cas"
+        }, 
+        {
+            "type": "CaseMngmnt", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 5
+            }, 
+            "name": "cm"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 6
+            }, 
+            "name": "accs"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 9
+            }, 
+            "name": "cont"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 37, 
+                "line": 14
+            }, 
+            "name": "acase"
+        }, 
+        {
+            "type": "Case", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 16
+            }, 
+            "name": "cas"
+        }, 
+        {
+            "type": "CaseMngmnt", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 32, 
+                "line": 18
+            }, 
+            "name": "cm"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 19
+            }, 
+            "name": "cont"
+        }, 
+        {
+            "type": "MailMngmnt", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 32, 
+                "line": 20
+            }, 
+            "name": "mm"
+        }, 
+        {
+            "type": "service__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 32, 
+                "line": 23
+            }, 
+            "name": "service"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 42, 
+                "line": 34
+            }, 
+            "name": "kigyoid"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 53, 
+                "line": 34
+            }, 
+            "name": "accountid"
+        }, 
+        {
+            "type": "service__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 35
+            }, 
+            "name": "service"
+        }
+    ], 
+    "id": "01p100000010CSIAA2", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "BeforeInsert", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "acase"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 3
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "AfterUpdate", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "acase"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 18, 
+                "line": 14
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "getService", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "kigyoid"
+                }, 
+                {
+                    "type": "Id", 
+                    "name": "accountid"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 34
+            }, 
+            "returnType": "service__c", 
+            "type": null
+        }
+    ]
+}

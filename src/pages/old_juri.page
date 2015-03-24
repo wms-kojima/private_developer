@@ -1,0 +1,39 @@
+<apex:page controller="old_juri_Controller" >
+   <div style="width:600px; ">
+        <apex:form >
+            <apex:pageblock title="情報確認">
+            
+                <apex:pageblockSection title="取引先レコードへの書き込み">
+                    <apex:inputfield id="Company" value="{!leds.Company}"/>
+                    <apex:inputfield id="kaisyameikana__c" value="{!leds.kaisyameikana__c}"/>
+                    <apex:inputfield id="namaekana__c" value="{!leds.namaekana__c}"/>
+                    <apex:inputfield id="syubetsu__c" value="{!leds.syubetsu__c}"/>
+                    <apex:inputfield id="moushikomipakku__c" value="{!leds.moushikomipakku__c}"/>
+                    <apex:inputfield id="juribi__c" value="{!leds.juribi__c}"/>
+                    <apex:inputfield id="moushikomibi__c" value="{!leds.moushikomibi__c}"/>
+                    <apex:inputfield id="memo__c" value="{!leds.memo__c}"/>
+                    <apex:inputfield id="consulting_opution__c" value="{!leds.consulting_opution__c}"/> 
+                </apex:pageblocksection>
+    
+                <apex:pageblocksection title="取引先責任者レコードへの書き込み">
+                    <apex:inputfield id="Name" value="{!leds.Name}"/>
+                    <apex:inputfield id="LastName" value="{!leds.LastName}"/>
+                    <apex:inputfield id="FirstName" value="{!leds.FirstName}"/>
+                    <apex:inputfield id="namaekana__c" value="{!leds.namaekana__c}"/>
+                    <apex:inputfield id="EMail" value="{!leds.EMail}"/>
+                    <apex:inputfield id="Phone" value="{!leds.Phone}"/>
+                </apex:pageblocksection>
+    
+                <apex:pageblocksection title="希望サービス">
+                    <apex:selectList value="{!input}" size="1">
+                        <apex:selectOption itemValue="BH" itemLabel="BH"/>
+                        <apex:selectOption itemValue="AH" itemLabel="AH"/>
+                        <apex:selectOption itemValue="スライド動画" itemLabel="スライド動画"/>
+                    </apex:selectList>
+                </apex:pageblocksection>
+   
+            </apex:pageblock>
+            <apex:commandButton style="margin:5px" value="登録＆受理メール送信" action="{!onClick}" oncomplete="window.close()" />
+        </apex:form>
+    </div>
+</apex:page>

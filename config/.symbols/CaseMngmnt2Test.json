@@ -1,0 +1,106 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "CaseMngmnt2Test", 
+    "tableDeclaration": {
+        "type": "CaseMngmnt2Test", 
+        "modifiers": [
+            "TEST"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 15, 
+            "line": 2
+        }, 
+        "name": "CaseMngmnt2Test"
+    }, 
+    "key": "01p100000010G2FAAU", 
+    "variables": [
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 16
+            }, 
+            "name": "accs"
+        }, 
+        {
+            "type": "CaseMngmnt2Test", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 4
+            }, 
+            "name": "cm2Test"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 5
+            }, 
+            "name": "accs"
+        }, 
+        {
+            "type": "CaseMngmnt2", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 7
+            }, 
+            "name": "cm2"
+        }, 
+        {
+            "type": "service__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 8
+            }, 
+            "name": "serv"
+        }
+    ], 
+    "id": "01p100000010G2FAAU", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "getAccount", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 15
+            }, 
+            "returnType": "Account", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "getServiceTest", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 36, 
+                "line": 3
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

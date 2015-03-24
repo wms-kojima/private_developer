@@ -1,0 +1,9 @@
+<apex:page controller="fizzbuzz_Controller">
+<apex:form ><apex:inputTextArea value="{!suji}"/>
+<apex:commandButton value="fizzbuzz" action="{!onclick}" />
+</apex:form>
+ <p>
+<apex:outputText value="{!moji}"/>
+</p>
+
+</apex:page>
